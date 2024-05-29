@@ -1,0 +1,38 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom, yellow, blue, red);
+  }
+  
+  .levels {
+    height: 180px;
+    width: 290px;
+    position: relative;
+    left: 600px;
+    top: 50px;
+    border: 20px solid rgb(212, 196, 166);
+    box-shadow: 11px 11px 10px red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .levels > button {
+    height: 50px;
+    width: 240px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
